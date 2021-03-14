@@ -1,0 +1,121 @@
+baseurl = "https://jeepeevd.github.io"
+title = "JeePee"
+
+theme = "coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+publishDir = "docs"
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "JeePee"
+    description = "Demo Site for PLCnext Demo"
+    keywords = "PLCnext, jeepeevd, demo, HUGO "
+    info = "info PLCnext"
+    avatarurl = "/avatar.jpg"
+    footercontent = "Enter a text here."
+    fixedbarContent = "Want to know more ?→"
+    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+
+    hideCredits = true
+    hideCopyright = true
+
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true
+    enableFacebookShare = true
+    enableHatenaShare = true
+    enableLineShare = true
+    enableLinkedInShare = true
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/plcnext/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/hashtag/plcnext"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/showcase/plcnext-technology/"
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 4
+    url = "https://www.facebook.com/plcnext/"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 5
+    url = "https://www.instagram.com/plcnext/?hl=nl"
+[[params.social]]
+    name = "YouTube"
+    icon = "fab fa-youtube"
+    weight = 6
+    url = "https://www.youtube.com/playlist?list=PLXpIBdAgtoRLX1FEeinzb5AgaVf6Oeo0v"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Home"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "JeePee VD"
+            info = "PLCnext Demo Site"
+            description = "JeePee's personal website"
+            keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "video"
+                weight = 3.0
+                url = "video"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 2.0
+                url = "projects"
+
+	    [[languages.en.menu.main]]
+                name = "Posts"
+                weight = 4.0
+                url = "posts/hugoisforlovers"
+            
+
+
+    
